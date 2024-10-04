@@ -3,13 +3,13 @@ import { Text, View, StyleSheet, Button } from "react-native";
 
 function First({ navigation }) {
     function switchPage(){
-        navigation.navigate('Second',{username : "ufukincibas"})
+        navigation.navigate('MemberSignScreen')
     }
 
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>First Page</Text>
-            <Button title="Go to Second" onPress={switchPage}/>
+            <Text style={styles.text}>İncibas Fitness Salonu</Text>
+            <Button title="Uye Kaydi Olustur... " onPress={switchPage}/>
         </View>
        
     );
